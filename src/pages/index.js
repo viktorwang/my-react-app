@@ -13,6 +13,8 @@ const IndexPage = () => (
     <div className="myBox">
       <h1>All the courses</h1>
       <div className="myboxWrap">
+
+      
         <Card 
           title="English Pod"
           text="It's a really good course."
