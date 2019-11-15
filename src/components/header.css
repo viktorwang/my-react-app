@@ -1,0 +1,15 @@
+.theHeader { background: rgba(red, green, blue, 0.5); position: fixed; z-index: 100;  width: 100%; top: 0;
+backdrop-filter: blur(20px);
+}
+.theHeaderWrap{max-width: 800px; margin: 0 auto; 
+display: grid;
+grid-template-columns: repeat(5, auto);
+align-items: center;
+justify-items: center;
+}
+.logo{
+    transition: .5s;
+}
+.logo:hover{
+    transform: translateX(20px) rotateX(20deg);
+}
